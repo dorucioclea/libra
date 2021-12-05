@@ -948,13 +948,13 @@ dependencies = [
 
 [[package]]
 name = "colored-diff"
-version = "0.2.2"
+version = "0.2.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "516f260afc909bb0d056b76891ad91b3275b83682d851b566792077eee946efd"
+checksum = "410208eb08c3f3ad44b95b51c4fc0d5993cbcc9dd39cfadb4214b9115a97dcb5"
 dependencies = [
- "ansi_term 0.11.0",
- "difference",
- "itertools 0.7.11",
+ "ansi_term 0.12.1",
+ "dissimilar",
+ "itertools 0.10.0",
 ]
 
 [[package]]
@@ -2623,6 +2623,12 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "212d0f5754cb6769937f4501cc0e67f4f4483c8d2c3e1e922ee9edbe4ab4c7c0"
 
 [[package]]
+name = "dissimilar"
+version = "1.0.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "31ad93652f40969dead8d4bf897a41e9462095152eb21c56e5830537e41179dd"
+
+[[package]]
 name = "docgen"
 version = "0.1.0"
 dependencies = [
@@ -3717,15 +3723,6 @@ dependencies = [
  "hex",
  "move-core-types",
  "move-ir-types",
-]
-
-[[package]]
-name = "itertools"
-version = "0.7.11"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "0d47946d458e94a1b7bcabbf6521ea7c037062c81f534615abcad76e84d4970d"
-dependencies = [
- "either",
 ]
 
 [[package]]
