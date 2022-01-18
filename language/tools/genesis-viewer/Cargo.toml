@@ -18,4 +18,4 @@ resource-viewer = { path = "../resource-viewer"}
 vm-genesis = { path = "../vm-genesis" }
 compiled-stdlib = { path = "../../diem-framework/compiled" }
 
-structopt = "0.3.21"
+structopt = "0.3.26"

@@ -19,7 +19,7 @@ move-ir-types = { path = "../../move-ir/types" }
 vm = { path = "../../vm" }
 move-coverage = { path = "../move-coverage" }
 
-structopt = "0.3.21"
+structopt = "0.3.26"
 
 [features]
 default = []
