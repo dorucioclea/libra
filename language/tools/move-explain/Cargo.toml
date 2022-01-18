@@ -10,7 +10,7 @@ publish = false
 edition = "2018"
 
 [dependencies]
-structopt = "0.3.21"
+structopt = "0.3.26"
 compiled-stdlib = { path = "../../diem-framework/compiled" }
 diem-workspace-hack = { path = "../../../common/workspace-hack" }
 errmapgen = { path = "../../move-prover/errmapgen" }
